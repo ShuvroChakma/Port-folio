@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Shubra Chakma</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+    }
+    .button{
+        border: 2px solid #09d890;
+        background: #09d890;
+    }
+    .button:hover{
+        background: solid #08c180;
+    }
+    .custom-font {
+            font-family: 'Sour Gummy', cursive;
+    }
+    .hero-section {
+     background-color: black;
+     padding: 100px 0;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    }
+
+    .hero-image {
+    width: 400px;
+    max-width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+    display: block;
+    margin: 0 auto; /* Ensures center alignment */
+    }
+    .skills .progress-bar {
+      background-color: #09d890;
+    }
+    .highlight {
+      color: #ff6f61;
+      font-weight: bold;
+    }
+    .cta {
+      background-color: #ff6f61;
+      color: #ffffff;
+    }
+    footer {
+      background-color: black;
+      color: #ffffff;
+    }
+    .hover-grow { transition: transform 0.2s ease-in-out; } .hover-grow:hover { transform: scale(1.1); }
+  </style>
+</head>
+<body class="custom-font">
+
+  <!-- Hero Section -->
+  <div class="d-flex flex-wrap justify-content-center gap-3 p-4">
+    <a href="index.html" class="btn btn-light shadow-sm px-4 py-3 me-4 hover-grow">
+        <i class="fas fa-home"></i> Home
+    </a>
+    <a href="about.html" class="btn btn-success shadow-sm px-4 py-3 me-4 hover-grow"><i class="fas fa-user me-2"></i> About Me</a>
+    <a href="projects.html" class="btn btn-light shadow-sm px-4 py-3 me-4 hover-grow"><i class="fas fa-briefcase me-2"></i> Projects</a>
+    <a href="skill.html" class="btn btn-light shadow-sm px-4 py-3 me-4 hover-grow"><i class="fas fa-cogs me-2"></i> Skills</a>
+    <a href="contact.html" class="btn btn-light shadow-sm px-4 py-3 me-4 hover-grow"><i class="fas fa-envelope me-2"></i> Contact</a>
+    <a target="_blank" href="https://github.com/ShuvroChakma" class="btn btn-light shadow-sm px-4 py-3 me-4 hover-grow">
+        <i class="fab fa-github me-2"></i> Github
+    </a>
+</div>
+  <section class="hero-section text-center">
+
+    <div class="container">
+      <img src="/images/student(4).png" alt="Shubra Chakma" class="hero-image mb-4 ">
+      <h1 class="display-4">Hi, I'm Shubra Chakma</h1>
+      <p class="lead">A passionate Front-End Developer specialized in the MERN stack</p>
+      <a href="contact.html" class="btn btn-outline-success border-2 text-white btn-lg mt-3 px-4 py-2 me-5 fs-4">Contact Me</a>
+      <a href="/SHUVRO_CV.pdf" target="_blank" class=" btn btn-outline-success border-2 text-white btn-lg mt-3 px-4 py-2 fs-4">My Resume</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mb-4">
+          <h2 class="display-5">About Me</h2>
+          <p class="px-2 py-4 fs-5">A passionate web developer who specializes in front-end technologies. I believe in the power of simple and intuitive user interfaces that create seamless user experiences. With expertise in HTML, CSS, JavaScript, and React, I strive to bring clean, responsive, and efficient designs to life. </p>
+          <p class="px-2 fs-5">Education: <br/>
+            I have completed my Bachelor of Science in Computer Science and Engineering (CSE) from Faridpur Engineering College. My academic journey has provided me with strong technical skills and a deep understanding of software development, which I actively apply in my projects.</p>
+        </div>
+        <div class="col-lg-6 mb-4">
+          <h2 class="display-5">My Skills</h2>
+          <div class="skills">
+            <p><span class="highlight">HTML</span></p>
+            <div class="progress mb-2" style="height: 10px;">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+
+            <p><span class="highlight">CSS</span></p>
+            <div class="progress mb-2" style="height: 10px;">
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+
+            <p><span class="highlight">JavaScript</span></p>
+            <div class="progress mb-2" style="height: 10px;">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+
+            <p><span class="highlight">React</span></p>
+            <div class="progress mb-2" style="height: 10px;">
+              <div class="progress-bar" style="width: 75%"></div>
+            </div>
+
+            <p><span class="highlight">Bootstrap</span></p>
+            <div class="progress mb-2" style="height: 10px;">
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="bg-black text-center py-5 shadow-green border-bottom border-success">
+    <div class="container">
+      <h2>Let's Build Something Amazing Together!</h2>
+      <p class="lead">I'm always open to exciting projects and collaborations. Get in touch, and let's create something awesome!</p>
+      <a href="contact.html" class="btn btn-outline-success border-2 text-white btn-lg mt-3 px-4 py-2">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p>&copy; 2025 Shubra Chakma | All Rights Reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
