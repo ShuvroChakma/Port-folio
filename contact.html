@@ -145,6 +145,7 @@
               emailjs.sendForm('shubrachakma101', 'template_b8o7r1o', this)
                   .then(() => {
                       console.log('SUCCESS!');
+                      document.getElementById('contact-form').reset();
                   }, (error) => {
                       console.log('FAILED...', error);
                   });
